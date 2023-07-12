@@ -9,17 +9,27 @@ El Back  esta realizado en
 
 [Mongo DB](https://www.mongodb.com/es/)
 
-### su estructura es 
-controller
+## su estructura de archivos 
+### Controllers
+	UserController.java 
 
-model
+Se encarga de recibir las peticiones y ejecutar la lógica principal (llamado al servicio la mayoría de las veces)	
 
-dto
+### Services
+	UserService.java
 
-repository
+Acciones permitidas en el sistema. Todo lo que se permite a quién lo solicita, por ejemplo: actualizar, buscar, operaciones de lógica, etc.
 
-service
+### Repositories
+	UserRepository.java
+Implica los métodos que llama el servicio. Tiene la lógica de conexión de persistencia, acciones de mapeo de objetos, métodos de operaciones de base de datos (consultas, etc).
 
+### Models
+	UserModel.java
+
+Representación de una tabla/entidad/tipo/colección en una clase Java. Modelo de clase. 
+
+________________________________________________________________________________________________________________________________________
 
 ## Framework
 
