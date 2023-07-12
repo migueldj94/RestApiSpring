@@ -1,32 +1,68 @@
 # RestApiSpring
-Participantes del grupo
-https://github.com/SAITO990, https://github.com/migueldj94,https://github.com/restsoap
+__________________________________________________________________________________________________________________________________
 
-#CONTENIDO
+# CONTENIDO
+
 El Back  esta realizado en 
-https://www.java.com/es/  version "17.0.7" 
-https://www.mongodb.com/es 
+
+[Java](https://www.java.com/es/)
+
+[Mongo DB](https://www.mongodb.com/es/)
+
+### su estructura es 
+controller
+
+model
+
+dto
+
+repository
+
+service
 
 
-Framework
+## Framework
+
 Spring boot 
-Sprin data
 
-Asistente de proyecto 
-intellij IDEA
+Spring data
 
-#Tener en cuenta 
+### Asistente de proyecto 
+
+[intellij IDEA](https://www.jetbrains.com/idea/download/?section=windows)
+__________________________________________________________________________________________________________________________________________
+### Tener en cuenta 
+
 1.	Recuerde tener instalado Java y en particular el JDK 8+.
 2.	Puedes instalar IntelliJ IDEA directamente desde la web de Jetbrains, utilizando NNF (Next, Next, Finish), para cualquier SO (Windows, Linux, macOS). Recuerde que tiene dos opciones: versión community y ultimate (esta última se puede obtener en una licencia estudiantil). 
 3.	En Windows también lo puedes hacer a través del gestor de paquetes chocolatey. En el powershell utilizando la línea de comando: choco install intellijidea-community. Para Linux, por ejemplo, dependiendo la distribución utilice su gestor de paquetes apt-get, yum, dnf, … Para macOS puede utilizar el gestor de paquetes Homebrew con la línea de comando: brew cask install intellij-idea-ce
-
-#programas necesarios
+______________________________________________________________________________________________________________________________________
+### Programas Necesarios
 Para poder utilizar el proyecto en localhost en necesario clonarlo y tener algunos programas necesarios:
 
-IDE de desarrollo de tu comodidad Ej. https://code.visualstudio.com/download
-https://code.visualstudio.com/download  para puebas de APIS. (Opcional)
-https://git-scm.com/downloads para poder gestionar las versiones.
+IDE de desarrollo de tu comodidad Ej. [VS Code](https://code.visualstudio.com)
 
-#Como Clonar
+[POSMAN](https://www.postman.com) para puebas de APIS. (Opcional)
+
+[git](https://github.com) para poder gestionar las versiones.
+
+
+# Como Clonar
+
 Comando para clonar:
+
+
 git clone [LINK DEL REPOSITORIO]
+
+### Como Ejecutar 
+
+hacer  click sobre la clase principal y seleccione en la opción Run
+
+![image](https://github.com/migueldj94/RestApiSpring/assets/125587415/9c26ff49-cad0-4d0b-9ab1-9ac02632f8df)
+
+
+salida y  ejecución en la ventana inferior de IntelliJ IDEA:
+
+![image](https://github.com/migueldj94/RestApiSpring/assets/125587415/c31da869-5353-4869-abff-5cef5fc38264)
+
+
