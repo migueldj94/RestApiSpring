@@ -76,3 +76,86 @@ salida y  ejecución en la ventana inferior de IntelliJ IDEA:
 ![image](https://github.com/migueldj94/RestApiSpring/assets/125587415/c31da869-5353-4869-abff-5cef5fc38264)
 
 
+_____________________________________________________________________________________________________________________________________
+
+# Funcionalidad 
+
+### personas  
+
+crear personas 
+
+obtener persona
+
+obtener todas las personas  
+
+si la persona ya existe no es posible crearlo de nuevo 
+
+todos los campos del formulario tienen validaciones que reciben letras o numeros 
+
+
+### doctores 
+
+crear doctor 
+
+obtener doctor 
+
+obtener doctores 
+
+No se puede crear más de un médico por especialidad
+
+No es posible crear un nuevo médico cuya cédula ya existe en la base de datos
+
+___________________________________________________________________________________________________________________________________
+
+# Endpoints
+
+### obtener cita medica 
+
+GET  http://localhost:9000/citas/especialidad/1
+
+### agregar cita medica 
+
+POST http://localhost:9000/api/citasMedicas
+
+### obtener citas medicas 
+
+GET http://localhost:9000/api/citasMedicas
+
+
+### obtener personas  
+
+GET http://localhost:9000/api/personas
+
+### agregar peronas 
+
+POST http://localhost:9000/api/personas
+
+### obtener doctor 
+
+GET http://localhost:9000/api/doctores
+
+### agregar doctor 
+
+POST http://localhost:9000/api/doctores
+
+###  obtener especialidad  
+
+GET http://localhost:9000/api/especialidades
+
+### agregar especialidad
+
+POST http://localhost:9000/api/especialidades
+
+
+# REALIZADO POR
+
+
+
+
+
+
+
+
+
+
+
